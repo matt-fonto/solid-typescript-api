@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2017", //how modern the code is
+    "module": "commonjs", //how the code is compiled
+    "outDir": "dist", //where the compiled code goes
+    "rootDir": "./", //where the code is
+    "strict": true, //enforces strict types
+    "esModuleInterop": true //allows us to use import syntax
+  },
+  "include": ["src/**/*.ts"] //where the code is
+}
